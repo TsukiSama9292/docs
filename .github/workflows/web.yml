@@ -37,7 +37,7 @@ jobs:
         run: uv venv
 
       - name: Build
-        run: uv run --group web mkdocs build -f mkdocs.yml -d ./dist
+        run: uv run mkdocs build -f mkdocs.yml -d ./dist
 
       # - name: Write CNAME (if setting exists)
       #   run: echo ${{ vars.CNAME }} > ./dist/CNAME
