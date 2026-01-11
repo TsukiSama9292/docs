@@ -240,74 +240,58 @@
 
 <br>
 
-## 🎓 Education & Experience
+<section id="education-experience">
+  <h2>🎓 Education &amp; Experience</h2>
 
-<table>
-<tr>
-<td width="30%" align="center" valign="top">
+  <table>
+    <tr>
+      <td width="30%" align="center" valign="top">
 
-### 🎓 Education
+        <div class="education">
+          <h3>🎓 Education</h3>
 
-**B.Eng. in Computer Science**
-<br>**& Information Engineering**
+          <p><strong>B.Eng. in Computer Science</strong><br><strong>&amp; Information Engineering</strong></p>
+          <p><em>National Ilan University</em></p>
+          <p>📅 2022.09 – 2026.06</p>
 
-*National Ilan University*
+          <hr>
 
-📅 2022.09 – 2026.06
+          <p><img src="https://img.shields.io/badge/GPA-Strong%20Academic%20Record-4FC08D?style=for-the-badge" height="24" alt="GPA"></p>
+        </div>
 
----
+      </td>
+      <td width="70%" valign="top">
 
-<img src="https://img.shields.io/badge/GPA-Strong%20Academic%20Record-4FC08D?style=for-the-badge" height="24">
+        <div class="experience">
+          <h3>💼 Professional Experience</h3>
 
-</td>
-<td width="70%" valign="top">
+          <div class="exp-item">
+            <h4>🤖 <strong>AI Developer</strong> @ <a href="https://laplaceai.co/">LaplaceAI</a></h4>
+            <p>📅 2025.05 – Present<br>🎯 AI agent development &amp; integration</p>
+          </div>
 
-### 💼 Professional Experience
+          <div class="exp-item">
+            <h4>🔬 <strong>R&amp;D Intern</strong> @ ROC Computer Skills Foundation</h4>
+            <p>📅 2025.10 – 2026.01 (Expected)<br>🎯 AI Teaching Assistant System</p>
+          </div>
 
-<table>
-<tr>
-<td>
+          <div class="exp-item">
+            <h4>👨‍💻 <strong>Research Project Leader</strong></h4>
+            <p>📅 2025.07 – 2026.05 (Expected)<br>🎯 Intelligent Learning Assistant &amp; Gamified Platform<br>💰 Funded by Ministry of Science (114-2813-C-197-023-E)</p>
+          </div>
 
-#### 🤖 **AI Developer** @ [LaplaceAI](https://laplaceai.co/)
-📅 2025.05 – Present  
-🎯 AI agent development & integration
+          <div class="exp-item">
+            <h4>🎯 <strong>Team Leader &amp; Developer</strong> @ K12EDU Platform</h4>
+            <p>📅 2023.11 – Present<br>👥 Cross-functional team<br>🏆 <strong>4+ National Awards</strong> | 🚀 Multiple platform deployments</p>
+          </div>
 
-</td>
-</tr>
-<tr>
-<td>
+        </div>
 
-#### 🔬 **R&D Intern** @ ROC Computer Skills Foundation
-📅 2025.10 – 2026.01 (Expected)  
-🎯 AI Teaching Assistant System
+      </td>
+    </tr>
+  </table>
 
-</td>
-</tr>
-<tr>
-<td>
-
-#### 👨‍💻 **Research Project Leader**
-📅 2025.07 – 2026.05 (Expected)  
-🎯 Intelligent Learning Assistant & Gamified Platform  
-💰 Funded by Ministry of Science (114-2813-C-197-023-E)
-
-</td>
-</tr>
-<tr>
-<td>
-
-#### 🎯 **Team Leader & Developer** @ K12EDU Platform
-📅 2023.11 – Present  
-👥 Cross-functional team  
-🏆 **4+ National Awards** | 🚀 Multiple platform deployments
-
-</td>
-</tr>
-</table>
-
-</td>
-</tr>
-</table>
+</section>
 
 <br>
 
@@ -317,127 +301,180 @@
 
 <br>
 
-## 🚀 Featured Projects
+<section id="featured-projects">
+  <h2>🚀 Featured Projects</h2>
 
-<div align="center">
+  <div style="text-align:center;">
+    <div>
+      <h3><a href="https://github.com/k12edu">K12EDU Platform</a> – <em>AI-Powered Multi-Service Platform</em></h3>
 
-### [K12EDU Platform](https://github.com/k12edu) – *AI-Powered Multi-Service Platform*
+      <p>
+        <img src="https://img.shields.io/badge/Status-Maintenance-FFA500?style=for-the-badge" height="28" alt="Status">
+        <img src="https://img.shields.io/badge/Role-Team%20Leader%20%26%20Developer-4FC08D?style=for-the-badge" height="28" alt="Role">
+        <img src="https://img.shields.io/badge/Awards-4%2B%20National%20Awards-FFD700?style=for-the-badge" height="28" alt="Awards">
+      </p>
+    </div>
+  </div>
 
-<img src="https://img.shields.io/badge/Status-Maintenance-FFA500?style=for-the-badge" height="28">
-<img src="https://img.shields.io/badge/Role-Team%20Leader%20%26%20Developer-4FC08D?style=for-the-badge" height="28">
-<img src="https://img.shields.io/badge/Awards-4%2B%20National%20Awards-FFD700?style=for-the-badge" height="28">
+  <table align="center">
+    <tr>
+      <td align="center" width="25%">
+        <div class="project-card">
+          <h4>🎮 Game Platform</h4>
+          <p>
+            <a href="https://game.k12edu.uk"><img src="https://img.shields.io/badge/Visit-Game%20Platform-FF6B6B?style=for-the-badge&logo=game&logoColor=white" height="32" alt="Game Platform"></a>
+          </p>
+          <p>Gamified learning<br>with achievements<br>&amp; leaderboards</p>
+        </div>
+      </td>
+      <td align="center" width="25%">
+        <div class="project-card">
+          <h4>🤖 AI Assistant</h4>
+          <p>
+            <a href="https://ai.k12edu.uk"><img src="https://img.shields.io/badge/Visit-AI%20Assistant-4FC08D?style=for-the-badge&logo=openai&logoColor=white" height="32" alt="AI Assistant"></a>
+          </p>
+          <p>Intelligent tutoring<br>powered by LLMs<br>&amp; RAG systems</p>
+        </div>
+      </td>
+      <td align="center" width="25%">
+        <div class="project-card">
+          <h4>📝 Teacher Portal</h4>
+          <p>
+            <a href="https://teacher.k12edu.uk"><img src="https://img.shields.io/badge/Visit-Teacher%20Portal-3498DB?style=for-the-badge&logo=teachable&logoColor=white" height="32" alt="Teacher Portal"></a>
+          </p>
+          <p>Comprehensive<br>course &amp; student<br>management</p>
+        </div>
+      </td>
+      <td align="center" width="25%">
+        <div class="project-card">
+          <h4>⚖️ Online Judge</h4>
+          <p>
+            <a href="https://judge.k12edu.uk"><img src="https://img.shields.io/badge/Visit-Online%20Judge-9B59B6?style=for-the-badge&logo=codejudge&logoColor=white" height="32" alt="Online Judge"></a>
+          </p>
+          <p>Automated code<br>evaluation &amp;<br>testing system</p>
+        </div>
+      </td>
+    </tr>
+  </table>
 
-</div>
+</section>
 
-<table align="center">
-<tr>
-<td align="center" width="25%">
+<section id="tech-stack">
+  <div align="center">
+    <h3>🛠️ Tech Stack</h3>
+    <p>
+      <img src="https://img.shields.io/badge/Next.js-black?style=flat-square&logo=next.js&logoColor=white" height="20" alt="Next.js">
+      <img src="https://img.shields.io/badge/Nuxt-black?style=flat-square&logo=nuxt&logoColor=white" height="20" alt="Nuxt">
+      <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=python&logoColor=white" height="20" alt="FastAPI">
+      <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" height="20" alt="PyTorch">
+      <img src="https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white" height="20" alt="PostgreSQL">
+      <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" height="20" alt="Docker">
+      <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" height="20" alt="Kubernetes">
+    </p>
+  </div>
 
-**🎮 Game Platform**
-<br>
-<a href="https://game.k12edu.uk">
-<img src="https://img.shields.io/badge/Visit-Game%20Platform-FF6B6B?style=for-the-badge&logo=game&logoColor=white" height="32">
-</a>
-<br><br>
-Gamified learning<br>with achievements<br>& leaderboards
+  <h3>💡 Technical Highlights</h3>
 
-</td>
-<td align="center" width="25%">
+  <table>
+    <tr>
+      <td width="50%" valign="top">
+        <h4>🤖 AI &amp; Intelligence</h4>
+        <p><strong>LLM-powered assistant with RAG</strong><br>Advanced context engineering and retrieval-augmented generation for intelligent responses</p>
 
-**🤖 AI Assistant**
-<br>
-<a href="https://ai.k12edu.uk">
-<img src="https://img.shields.io/badge/Visit-AI%20Assistant-4FC08D?style=for-the-badge&logo=openai&logoColor=white" height="32">
-</a>
-<br><br>
-Intelligent tutoring<br>powered by LLMs<br>& RAG systems
+        <h4>🚀 Real-time Processing</h4>
+        <p><strong>Data pipeline &amp; analytics</strong><br>High-performance real-time data processing with scalable analytics infrastructure</p>
 
-</td>
-<td align="center" width="25%">
+        <h4>📊 Production Deployment</h4>
+        <p><strong>Docker &amp; CI/CD automation</strong><br>Containerized deployment with continuous integration and delivery pipelines</p>
+      </td>
+      <td width="50%" valign="top">
+        <h4>⚙️ Architecture</h4>
+        <p><strong>Microservices with K8s</strong><br>Distributed system design with Kubernetes orchestration for scalability</p>
 
-**📝 Teacher Portal**
-<br>
-<a href="https://teacher.k12edu.uk">
-<img src="https://img.shields.io/badge/Visit-Teacher%20Portal-3498DB?style=for-the-badge&logo=teachable&logoColor=white" height="32">
-</a>
-<br><br>
-Comprehensive<br>course & student<br>management
+        <h4>🔒 Security &amp; Access</h4>
+        <p><strong>Authentication &amp; RBAC</strong><br>Enterprise-grade authentication system with role-based access control</p>
 
-</td>
-<td align="center" width="25%">
+        <h4>🌐 Cloud Infrastructure</h4>
+        <p><strong>Scalable &amp; resilient</strong><br>Cloud-native architecture designed for high availability and performance</p>
+      </td>
+    </tr>
+  </table>
 
-**⚖️ Online Judge**
-<br>
-<a href="https://judge.k12edu.uk">
-<img src="https://img.shields.io/badge/Visit-Online%20Judge-9B59B6?style=for-the-badge&logo=codejudge&logoColor=white" height="32">
-</a>
-<br><br>
-Automated code<br>evaluation &<br>testing system
+</section>
 
-</td>
-</tr>
-</table>
-
-<div align="center">
-
-**🛠️ Tech Stack**
-
-<img src="https://img.shields.io/badge/Next.js-black?style=flat-square&logo=next.js&logoColor=white" height="20">
-<img src="https://img.shields.io/badge/Nuxt-black?style=flat-square&logo=nuxt&logoColor=white" height="20">
-<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=python&logoColor=white" height="20">
-<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" height="20">
-<img src="https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white" height="20">
-<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" height="20">
-<img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" height="20">
-
-<br><br>
-
-### 💡 Technical Highlights
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-#### 🤖 AI & Intelligence
-**LLM-powered assistant with RAG**  
-Advanced context engineering and retrieval-augmented generation for intelligent responses
-
-<br>
-
-#### 🚀 Real-time Processing
-**Data pipeline & analytics**  
-High-performance real-time data processing with scalable analytics infrastructure
-
-<br>
-
-#### 📊 Production Deployment
-**Docker & CI/CD automation**  
-Containerized deployment with continuous integration and delivery pipelines
-
-</td>
-<td width="50%" valign="top">
-
-#### ⚙️ Architecture
-**Microservices with K8s**  
-Distributed system design with Kubernetes orchestration for scalability
-
-<br>
-
-#### 🔒 Security & Access
-**Authentication & RBAC**  
-Enterprise-grade authentication system with role-based access control
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2"/>
+</p>
 
 <br>
 
-#### 🌐 Cloud Infrastructure
-**Scalable & resilient**  
-Cloud-native architecture designed for high availability and performance
+<section id="achievements">
+  <h2>🏆 Achievements &amp; Recognition</h2>
 
-</td>
-</tr>
-</table>
+  <div class="achievements" style="display:flex;gap:2rem;flex-wrap:wrap;">
+    <div style="flex:1;min-width:280px;">
+      <h3>🎯 Competition Awards (2025)</h3>
 
-</div>
+      <div style="display:grid;grid-template-columns:60px 1fr;gap:0.5rem;align-items:center">
+        <div style="font-size:48px;text-align:center">🥇</div>
+        <div>
+          <strong>1st Place</strong>
+          <div>College of EECS Capstone Competition<br><em>National Ilan University</em></div>
+        </div>
+
+        <div style="font-size:48px;text-align:center">🥈</div>
+        <div>
+          <strong>2nd Place</strong>
+          <div>Dept. CS &amp; IE Capstone Competition<br><em>National Ilan University</em></div>
+        </div>
+
+        <div style="font-size:48px;text-align:center">🏆</div>
+        <div>
+          <strong>Excellence Award</strong>
+          <div>Programming &amp; AI Applications Competition<br><em>National Ilan University</em></div>
+        </div>
+
+        <div style="font-size:48px;text-align:center">🎖️</div>
+        <div>
+          <strong>Finalist</strong>
+          <div>National College Innovation &amp; Interdisciplinary Competition<br><em>Digital Computing &amp; Innovation Track</em></div>
+        </div>
+      </div>
+    </div>
+
+    <div style="flex:1;min-width:280px;">
+      <h3>📜 Professional Certifications</h3>
+
+      <ul style="list-style:none;padding-left:0;">
+        <li style="display:flex;align-items:center;gap:12px;margin-bottom:8px">
+          <img src="https://img.shields.io/badge/NVIDIA-76B900?style=for-the-badge&logo=nvidia&logoColor=white" height="32" alt="NVIDIA">
+          <div>
+            <strong>Deep Learning Mechanics</strong><br><em>2023</em>
+          </div>
+        </li>
+
+        <li style="display:flex;align-items:center;gap:12px;margin-bottom:8px">
+          <img src="https://img.shields.io/badge/NVIDIA-76B900?style=for-the-badge&logo=nvidia&logoColor=white" height="32" alt="NVIDIA">
+          <div>
+            <strong>AI on Jetson Nano</strong><br><em>2024</em>
+          </div>
+        </li>
+
+        <li style="display:flex;align-items:center;gap:12px;margin-bottom:8px">
+          <img src="https://img.shields.io/badge/NVIDIA-76B900?style=for-the-badge&logo=nvidia&logoColor=white" height="32" alt="NVIDIA">
+          <div>
+            <strong>Building RAG Agents with LLMs</strong><br><em>2024</em>
+          </div>
+        </li>
+      </ul>
+
+      <div style="text-align:center;margin-top:12px">
+        <img src="https://img.shields.io/badge/Total%20Awards-4%2B%20National%20Recognition-FFD700?style=for-the-badge" height="28" alt="Total Awards">
+      </div>
+    </div>
+  </div>
+
+</section>
 
 <br>
 
@@ -447,146 +484,22 @@ Cloud-native architecture designed for high availability and performance
 
 <br>
 
-## 🏆 Achievements & Recognition
+<section id="connect">
+  <h2>🌐 Let's Connect!</h2>
 
-<table>
-<tr>
-<td width="50%" valign="top">
+  <div style="text-align:center;">
+    <p>
+      <a href="https://github.com/TsukiSama9292"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" height="40" alt="GitHub"></a>
+      <a href="https://www.linkedin.com/in/xuan-you-lin-tsukisama9292"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="40" alt="LinkedIn"></a>
+      <a href="https://www.facebook.com/TsukiSama9292"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" height="40" alt="Facebook"></a>
+      <a href="mailto:tsukisama9292@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" height="40" alt="Email"></a>
+    </p>
 
-### 🎯 **Competition Awards (2025)**
-
-<table>
-<tr>
-<td align="center" width="60" style="font-size: 48px;">
-🥇
-</td>
-<td>
-
-**1st Place**  
-College of EECS Capstone Competition  
-*National Ilan University*
-
-</td>
-</tr>
-<tr>
-<td align="center" style="font-size: 48px;">
-🥈
-</td>
-<td>
-
-**2nd Place**  
-Dept. CS & IE Capstone Competition  
-*National Ilan University*
-
-</td>
-</tr>
-<tr>
-<td align="center" style="font-size: 48px;">
-🏆
-</td>
-<td>
-
-**Excellence Award**  
-Programming & AI Applications Competition  
-*National Ilan University*
-
-</td>
-</tr>
-<tr>
-<td align="center" style="font-size: 48px;">
-🎖️
-</td>
-<td>
-
-**Finalist**  
-National College Innovation & Interdisciplinary Competition  
-*Digital Computing & Innovation Track*
-
-</td>
-</tr>
-</table>
-
-</td>
-<td width="50%" valign="top">
-
-### 📜 **Professional Certifications**
-
-<table>
-<tr>
-<td align="center" width="80">
-<img src="https://img.shields.io/badge/NVIDIA-76B900?style=for-the-badge&logo=nvidia&logoColor=white" height="32">
-</td>
-<td valign="middle">
-
-**Deep Learning Mechanics**  
-*2023*
-
-</td>
-</tr>
-<tr>
-<td align="center">
-<img src="https://img.shields.io/badge/NVIDIA-76B900?style=for-the-badge&logo=nvidia&logoColor=white" height="32">
-</td>
-<td valign="middle">
-
-**AI on Jetson Nano**  
-*2024*
-
-</td>
-</tr>
-<tr>
-<td align="center">
-<img src="https://img.shields.io/badge/NVIDIA-76B900?style=for-the-badge&logo=nvidia&logoColor=white" height="32">
-</td>
-<td valign="middle">
-
-**Building RAG Agents with LLMs**  
-*2024*
-
-</td>
-</tr>
-</table>
-
-<br>
-
-<p align="center">
-<img src="https://img.shields.io/badge/Total%20Awards-4%2B%20National%20Recognition-FFD700?style=for-the-badge" height="28">
-</p>
-
-</td>
-</tr>
-</table>
-
-<br>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2"/>
-</p>
-
-<br>
-
-## 🌐 Let's Connect!
-
-<div align="center">
-
-<a href="https://github.com/TsukiSama9292">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" height="40">
-</a>
-<a href="https://www.linkedin.com/in/xuan-you-lin-tsukisama9292">
-  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="40">
-</a>
-<a href="https://www.facebook.com/TsukiSama9292">
-  <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" height="40">
-</a>
-<a href="mailto:tsukisama9292@gmail.com">
-  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" height="40">
-</a>
-
-<br><br>
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=1000&color=4FC08D&center=true&vCenter=true&width=600&lines=Thanks+for+visiting+my+profile!+%F0%9F%91%8B;Let's+build+something+amazing+together!+%F0%9F%9A%80" alt="Typing SVG" />
-
-</div>
+    <p style="margin-top:12px;">
+      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=1000&color=4FC08D&center=true&vCenter=true&width=600&lines=Thanks+for+visiting+my+profile!+%F0%9F%91%8B;Let's+build+something+amazing+together!+%F0%9F%9A%80" alt="Typing SVG">
+    </p>
+  </div>
+</section>
 
 <br>
 
