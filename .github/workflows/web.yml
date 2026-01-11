@@ -1,0 +1,50 @@
+name: gh-pages
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "docs/*.md"
+      - "docs/**/*.md"
+      - "pyproject.toml"
+      - ".github/workflows/web.yml"
+      - "mkdocs.yml"
+  pull_request:
+    branches: [main]
+    
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.12'
+          
+      - name: Install uv
+        run: pip install uv
+        
+      - name: Create virtual environment
+        run: uv venv
+
+      - name: Build
+        run: uv run --group web mkdocs build -f mkdocs.yml -d ./dist
+
+      # - name: Write CNAME (if setting exists)
+      #   run: echo ${{ vars.CNAME }} > ./dist/CNAME
+
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: gh-pages

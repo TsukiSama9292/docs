@@ -1,0 +1,60 @@
+site_name: open data web
+site_url: https://tsukisama9292.github.io/open_data_web/
+use_directory_urls: true
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - content.code.copy
+    - search.suggest
+  palette:
+      - media: "(prefers-color-scheme: light)"
+        scheme: default
+        primary: white
+        toggle:
+          icon: material/weather-sunny
+          name: Switch to dark mode
+      - media: "(prefers-color-scheme: dark)"
+        scheme: slate
+        primary: black
+        accent: cyan
+        toggle:
+          icon: material/weather-night
+          name: Switch to light mode
+
+plugins:
+  - search:
+  - i18n:
+      languages:
+        - locale: en
+          name: English
+          default: true
+          build: true
+          link: /open_data_web/
+        - locale: zh
+          name: 繁體中文
+          default: false
+          build: true
+          link: /open_data_web/zh/
+          nav_translations:
+            Home: 首頁
+
+nav:
+  - Home: index.md
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - admonition
+  - pymdownx.details
+  - attr_list
+  - md_in_html
