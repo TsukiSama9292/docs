@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://tsukisama9292.github.io/open_data_web/</loc>
+        <lastmod>2026-01-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://tsukisama9292.github.io/open_data_web/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://tsukisama9292.github.io/open_data_web/zh/"/>
+    </url>
+    <url>
+        <loc>https://tsukisama9292.github.io/open_data_web/zh/</loc>
+        <lastmod>2026-01-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://tsukisama9292.github.io/open_data_web/zh/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://tsukisama9292.github.io/open_data_web/"/>
+    </url>
+</urlset>
