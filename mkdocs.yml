@@ -31,12 +31,12 @@ plugins:
           name: English
           default: true
           build: true
-          link: /open_data_web/
+          link: /docs/
         - locale: zh
           name: 繁體中文
           default: false
           build: true
-          link: /open_data_web/zh/
+          link: /docs/zh/
           nav_translations:
             Home: 首頁
 
