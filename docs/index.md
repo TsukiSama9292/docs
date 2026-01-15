@@ -107,10 +107,12 @@
 <br/>
 <img src="https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity&logoColor=white" height="28"/>
 
-</div>
+
 </details>
 
 <br>
+
+</div>
 
 ## 💫 **About Me** {.center}
 
@@ -241,58 +243,55 @@
 
 <br>
 
-<section id="education-experience">
-  <h2>🎓 <b>Education &amp; Experience</b></h2>
+## 🎓 **Education & Experience** {.center}
 
-  <table>
-    <tr>
-      <td width="30%" align="center" valign="top">
+<table>
+  <tr>
+    <td width="30%" align="center" valign="top">
 
-        <div class="education">
-          <h3>🎓 Education</h3>
+      <div class="education">
+        <h3>🎓 Education</h3>
 
-          <p><strong>B.Eng. in Computer Science</strong><br><strong>&amp; Information Engineering</strong></p>
-          <p><em>National Ilan University</em></p>
-          <p>📅 2022.09 – 2026.06</p>
+        <p><strong>B.Eng. in Computer Science</strong><br><strong>&amp; Information Engineering</strong></p>
+        <p><em>National Ilan University</em></p>
+        <p>📅 2022.09 – 2026.06</p>
 
-          <hr>
+        <hr>
 
-          <p><img src="https://img.shields.io/badge/GPA-Strong%20Academic%20Record-4FC08D?style=for-the-badge" height="24" alt="GPA"></p>
+        <p><img src="https://img.shields.io/badge/GPA-Strong%20Academic%20Record-4FC08D?style=for-the-badge" height="24" alt="GPA"></p>
+      </div>
+
+    </td>
+    <td width="70%" valign="top">
+
+      <div class="experience">
+        <h3>💼 Professional Experience</h3>
+
+        <div class="exp-item">
+          <h4>🤖 <strong>AI Developer</strong> @ <a href="https://laplaceai.co/">LaplaceAI</a></h4>
+          <p>📅 2025.05 – Present<br>🎯 AI agent development &amp; integration</p>
         </div>
 
-      </td>
-      <td width="70%" valign="top">
-
-        <div class="experience">
-          <h3>💼 Professional Experience</h3>
-
-          <div class="exp-item">
-            <h4>🤖 <strong>AI Developer</strong> @ <a href="https://laplaceai.co/">LaplaceAI</a></h4>
-            <p>📅 2025.05 – Present<br>🎯 AI agent development &amp; integration</p>
-          </div>
-
-          <div class="exp-item">
-            <h4>🔬 <strong>R&amp;D Intern</strong> @ ROC Computer Skills Foundation</h4>
-            <p>📅 2025.10 – 2026.01 (Expected)<br>🎯 AI Teaching Assistant System</p>
-          </div>
-
-          <div class="exp-item">
-            <h4>👨‍💻 <strong>Research Project Leader</strong></h4>
-            <p>📅 2025.07 – 2026.05 (Expected)<br>🎯 Intelligent Learning Assistant &amp; Gamified Platform<br>💰 Funded by Ministry of Science (114-2813-C-197-023-E)</p>
-          </div>
-
-          <div class="exp-item">
-            <h4>🎯 <strong>Team Leader &amp; Developer</strong> @ K12EDU Platform</h4>
-            <p>📅 2023.11 – Present<br>👥 Cross-functional team<br>🏆 <strong>4+ National Awards</strong> | 🚀 Multiple platform deployments</p>
-          </div>
-
+        <div class="exp-item">
+          <h4>🔬 <strong>R&amp;D Intern</strong> @ ROC Computer Skills Foundation</h4>
+          <p>📅 2025.10 – 2026.01 (Expected)<br>🎯 AI Teaching Assistant System</p>
         </div>
 
-      </td>
-    </tr>
-  </table>
+        <div class="exp-item">
+          <h4>👨‍💻 <strong>Research Project Leader</strong></h4>
+          <p>📅 2025.07 – 2026.05 (Expected)<br>🎯 Intelligent Learning Assistant &amp; Gamified Platform<br>💰 Funded by Ministry of Science (114-2813-C-197-023-E)</p>
+        </div>
 
-</section>
+        <div class="exp-item">
+          <h4>🎯 <strong>Team Leader &amp; Developer</strong> @ K12EDU Platform</h4>
+          <p>📅 2023.11 – Present<br>👥 Cross-functional team<br>🏆 <strong>4+ National Awards</strong> | 🚀 Multiple platform deployments</p>
+        </div>
+
+      </div>
+
+    </td>
+  </tr>
+</table>
 
 <br>
 
@@ -302,63 +301,60 @@
 
 <br>
 
-<section id="featured-projects">
-  <h2>🚀 <b>Featured Projects</b></h2>
+## 🚀 **Featured Projects** {.center}
 
-  <div style="text-align:center;">
-    <div>
-      <h3><a href="https://github.com/k12edu">K12EDU Platform</a> – <em>AI-Powered Multi-Service Platform</em></h3>
+<div style="text-align:center;">
+  <div>
+    <h3><a href="https://github.com/k12edu">K12EDU Platform</a> – <em>AI-Powered Multi-Service Platform</em></h3>
 
-      <p>
-        <img src="https://img.shields.io/badge/Status-Maintenance-FFA500?style=for-the-badge" height="28" alt="Status">
-        <img src="https://img.shields.io/badge/Role-Team%20Leader%20%26%20Developer-4FC08D?style=for-the-badge" height="28" alt="Role">
-        <img src="https://img.shields.io/badge/Awards-4%2B%20National%20Awards-FFD700?style=for-the-badge" height="28" alt="Awards">
-      </p>
-    </div>
+    <p>
+      <img src="https://img.shields.io/badge/Status-Maintenance-FFA500?style=for-the-badge" height="28" alt="Status">
+      <img src="https://img.shields.io/badge/Role-Team%20Leader%20%26%20Developer-4FC08D?style=for-the-badge" height="28" alt="Role">
+      <img src="https://img.shields.io/badge/Awards-4%2B%20National%20Awards-FFD700?style=for-the-badge" height="28" alt="Awards">
+    </p>
   </div>
+</div>
 
-  <table align="center">
-    <tr>
-      <td align="center" width="25%">
-        <div class="project-card">
-          <h4>🎮 Game Platform</h4>
-          <p>
-            <a href="https://game.k12edu.uk"><img src="https://img.shields.io/badge/Visit-Game%20Platform-FF6B6B?style=for-the-badge&logo=game&logoColor=white" height="32" alt="Game Platform"></a>
-          </p>
-          <p>Gamified learning<br>with achievements<br>&amp; leaderboards</p>
-        </div>
-      </td>
-      <td align="center" width="25%">
-        <div class="project-card">
-          <h4>🤖 AI Assistant</h4>
-          <p>
-            <a href="https://ai.k12edu.uk"><img src="https://img.shields.io/badge/Visit-AI%20Assistant-4FC08D?style=for-the-badge&logo=openai&logoColor=white" height="32" alt="AI Assistant"></a>
-          </p>
-          <p>Intelligent tutoring<br>powered by LLMs<br>&amp; RAG systems</p>
-        </div>
-      </td>
-      <td align="center" width="25%">
-        <div class="project-card">
-          <h4>📝 Teacher Portal</h4>
-          <p>
-            <a href="https://teacher.k12edu.uk"><img src="https://img.shields.io/badge/Visit-Teacher%20Portal-3498DB?style=for-the-badge&logo=teachable&logoColor=white" height="32" alt="Teacher Portal"></a>
-          </p>
-          <p>Comprehensive<br>course &amp; student<br>management</p>
-        </div>
-      </td>
-      <td align="center" width="25%">
-        <div class="project-card">
-          <h4>⚖️ Online Judge</h4>
-          <p>
-            <a href="https://judge.k12edu.uk"><img src="https://img.shields.io/badge/Visit-Online%20Judge-9B59B6?style=for-the-badge&logo=codejudge&logoColor=white" height="32" alt="Online Judge"></a>
-          </p>
-          <p>Automated code<br>evaluation &amp;<br>testing system</p>
-        </div>
-      </td>
-    </tr>
-  </table>
-
-</section>
+<table align="center">
+  <tr>
+    <td align="center" width="25%">
+      <div class="project-card">
+        <h4>🎮 Game Platform</h4>
+        <p>
+          <a href="https://game.k12edu.uk"><img src="https://img.shields.io/badge/Visit-Game%20Platform-FF6B6B?style=for-the-badge&logo=game&logoColor=white" height="32" alt="Game Platform"></a>
+        </p>
+        <p>Gamified learning<br>with achievements<br>&amp; leaderboards</p>
+      </div>
+    </td>
+    <td align="center" width="25%">
+      <div class="project-card">
+        <h4>🤖 AI Assistant</h4>
+        <p>
+          <a href="https://ai.k12edu.uk"><img src="https://img.shields.io/badge/Visit-AI%20Assistant-4FC08D?style=for-the-badge&logo=openai&logoColor=white" height="32" alt="AI Assistant"></a>
+        </p>
+        <p>Intelligent tutoring<br>powered by LLMs<br>&amp; RAG systems</p>
+      </div>
+    </td>
+    <td align="center" width="25%">
+      <div class="project-card">
+        <h4>📝 Teacher Portal</h4>
+        <p>
+          <a href="https://teacher.k12edu.uk"><img src="https://img.shields.io/badge/Visit-Teacher%20Portal-3498DB?style=for-the-badge&logo=teachable&logoColor=white" height="32" alt="Teacher Portal"></a>
+        </p>
+        <p>Comprehensive<br>course &amp; student<br>management</p>
+      </div>
+    </td>
+    <td align="center" width="25%">
+      <div class="project-card">
+        <h4>⚖️ Online Judge</h4>
+        <p>
+          <a href="https://judge.k12edu.uk"><img src="https://img.shields.io/badge/Visit-Online%20Judge-9B59B6?style=for-the-badge&logo=codejudge&logoColor=white" height="32" alt="Online Judge"></a>
+        </p>
+        <p>Automated code<br>evaluation &amp;<br>testing system</p>
+      </div>
+    </td>
+  </tr>
+</table>
 
 <section id="tech-stack">
   <div align="center">
@@ -485,22 +481,20 @@
 
 <br>
 
-<section id="connect">
-  <h2>🌐 <b>Let's Connect!</b></h2>
+## 🌐 **Let's Connect!** {.center}
 
-  <div style="text-align:center;">
-    <p>
-      <a href="https://github.com/TsukiSama9292"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" height="40" alt="GitHub"></a>
-      <a href="https://www.linkedin.com/in/xuan-you-lin-tsukisama9292"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="40" alt="LinkedIn"></a>
-      <a href="https://www.facebook.com/TsukiSama9292"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" height="40" alt="Facebook"></a>
-      <a href="mailto:tsukisama9292@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" height="40" alt="Email"></a>
-    </p>
+<div style="text-align:center;">
+  <p>
+    <a href="https://github.com/TsukiSama9292"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" height="40" alt="GitHub"></a>
+    <a href="https://www.linkedin.com/in/xuan-you-lin-tsukisama9292"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="40" alt="LinkedIn"></a>
+    <a href="https://www.facebook.com/TsukiSama9292"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" height="40" alt="Facebook"></a>
+    <a href="mailto:tsukisama9292@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" height="40" alt="Email"></a>
+  </p>
 
-    <p style="margin-top:12px;">
-      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=1000&color=4FC08D&center=true&vCenter=true&width=600&lines=Thanks+for+visiting+my+profile!+%F0%9F%91%8B;Let's+build+something+amazing+together!+%F0%9F%9A%80" alt="Typing SVG">
-    </p>
-  </div>
-</section>
+  <p style="margin-top:12px;">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=1000&color=4FC08D&center=true&vCenter=true&width=600&lines=Thanks+for+visiting+my+profile!+%F0%9F%91%8B;Let's+build+something+amazing+together!+%F0%9F%9A%80" alt="Typing SVG">
+  </p>
+</div>
 
 <br>
 
