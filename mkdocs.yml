@@ -6,6 +6,7 @@ theme:
   name: material
   features:
     - navigation.tabs
+    - navigation.sections
     - content.code.copy
     - search.suggest
   palette:
@@ -31,12 +32,12 @@ plugins:
           name: English
           default: true
           build: true
-          link: /docs/
+          link: /
         - locale: zh
           name: 繁體中文
           default: false
           build: true
-          link: /docs/zh/
+          link: /zh/
           nav_translations:
             Home: 首頁
 
@@ -58,3 +59,6 @@ markdown_extensions:
   - pymdownx.details
   - attr_list
   - md_in_html
+
+extra_css:
+  - css/extra.css

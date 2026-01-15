@@ -31,7 +31,11 @@
 
 <br>
 
-<h2>🎯 <b>Core Expertise</b></h2>
+</div>
+
+## 🎯 **Core Expertise** {.center}
+
+<div>
 
 <table align="center">
 <tr>
@@ -108,7 +112,7 @@
 
 <br>
 
-<h2>💫 <b>About Me</b></h2>
+## 💫 **About Me** {.center}
 
 <table>
 <tr>
@@ -153,75 +157,72 @@
 </tr>
 </table>
 
-<section id="what-i-do">
-  <h2>🎯 <strong>What I Do</strong></h2>
+## 🎯 **What I Do** {.center}
 
-  <table>
-    <tr>
-      <td align="center" width="50%">
-        <div>
-          <img src="https://user-images.githubusercontent.com/74038190/221352989-518609ab-b4d1-459e-929f-a08cd2bd9b3c.gif" width="80" alt="AI gif">
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <div>
+        <img src="https://user-images.githubusercontent.com/74038190/221352989-518609ab-b4d1-459e-929f-a08cd2bd9b3c.gif" width="80" alt="AI gif">
 
-          <h4>🤖 <strong>AI Systems Development</strong></h4>
+        <h4>🤖 <strong>AI Systems Development</strong></h4>
 
-          <p>
-            <img src="https://img.shields.io/badge/LLMs-Expert-FF6B6B?style=flat-square" height="18" alt="LLMs">
-            <img src="https://img.shields.io/badge/RAG-Advanced-4FC08D?style=flat-square" height="18" alt="RAG">
-            <img src="https://img.shields.io/badge/Context%20Engineering-Pro-9B59B6?style=flat-square" height="18" alt="Context Engineering">
-          </p>
+        <p>
+          <img src="https://img.shields.io/badge/LLMs-Expert-FF6B6B?style=flat-square" height="18" alt="LLMs">
+          <img src="https://img.shields.io/badge/RAG-Advanced-4FC08D?style=flat-square" height="18" alt="RAG">
+          <img src="https://img.shields.io/badge/Context%20Engineering-Pro-9B59B6?style=flat-square" height="18" alt="Context Engineering">
+        </p>
 
-          <p>Building production-grade intelligent applications with large language models, retrieval-augmented generation, and advanced context engineering techniques</p>
-        </div>
-      </td>
-      <td align="center" width="50%">
-        <div>
-          <img src="https://user-images.githubusercontent.com/74038190/221352995-5ac18bdf-1a19-4f99-bbb6-77559b220470.gif" width="80" alt="Architecture gif">
+        <p>Building production-grade intelligent applications with large language models, retrieval-augmented generation, and advanced context engineering techniques</p>
+      </div>
+    </td>
+    <td align="center" width="50%">
+      <div>
+        <img src="https://user-images.githubusercontent.com/74038190/221352995-5ac18bdf-1a19-4f99-bbb6-77559b220470.gif" width="80" alt="Architecture gif">
 
-          <h4>🏗️ <strong>Software Architecture</strong></h4>
+        <h4>🏗️ <strong>Software Architecture</strong></h4>
 
-          <p>
-            <img src="https://img.shields.io/badge/Microservices-Scalable-3498DB?style=flat-square" height="18" alt="Microservices">
-            <img src="https://img.shields.io/badge/DevOps-Automated-FF6B6B?style=flat-square" height="18" alt="DevOps">
-            <img src="https://img.shields.io/badge/Cloud-Native-4FC08D?style=flat-square" height="18" alt="Cloud Native">
-          </p>
+        <p>
+          <img src="https://img.shields.io/badge/Microservices-Scalable-3498DB?style=flat-square" height="18" alt="Microservices">
+          <img src="https://img.shields.io/badge/DevOps-Automated-FF6B6B?style=flat-square" height="18" alt="DevOps">
+          <img src="https://img.shields.io/badge/Cloud-Native-4FC08D?style=flat-square" height="18" alt="Cloud Native">
+        </p>
 
-          <p>Designing scalable, distributed systems with microservices architecture, modern DevOps practices, and cloud-native infrastructure</p>
-        </div>
-      </td>
-    </tr>
-    <tr>
-      <td align="center" width="50%">
-        <div>
-          <img src="https://miro.medium.com/v2/resize:fit:750/format:webp/1*yw0TnheAGN-LPneDaTlaxw.gif" width="80" alt="Full-stack gif">
+        <p>Designing scalable, distributed systems with microservices architecture, modern DevOps practices, and cloud-native infrastructure</p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <div>
+        <img src="https://miro.medium.com/v2/resize:fit:750/format:webp/1*yw0TnheAGN-LPneDaTlaxw.gif" width="80" alt="Full-stack gif">
 
-          <h4>💻 <strong>Full-Stack Engineering</strong></h4>
+        <h4>💻 <strong>Full-Stack Engineering</strong></h4>
 
-          <p>
-            <img src="https://img.shields.io/badge/Frontend-Next.js%20%7C%20Nuxt.js-000000?style=flat-square" height="18" alt="Frontend">
-            <img src="https://img.shields.io/badge/Backend-FastAPI%20%7C%20Django-009688?style=flat-square" height="18" alt="Backend">
-          </p>
+        <p>
+          <img src="https://img.shields.io/badge/Frontend-Next.js%20%7C%20Nuxt.js-000000?style=flat-square" height="18" alt="Frontend">
+          <img src="https://img.shields.io/badge/Backend-FastAPI%20%7C%20Django-009688?style=flat-square" height="18" alt="Backend">
+        </p>
 
-          <p>Developing end-to-end solutions with modern frameworks, containerized deployment strategies, and seamless frontend-backend integration</p>
-        </div>
-      </td>
-      <td align="center" width="50%">
-        <div>
-          <img src="https://user-images.githubusercontent.com/74038190/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif" width="80" alt="Leadership gif">
+        <p>Developing end-to-end solutions with modern frameworks, containerized deployment strategies, and seamless frontend-backend integration</p>
+      </div>
+    </td>
+    <td align="center" width="50%">
+      <div>
+        <img src="https://user-images.githubusercontent.com/74038190/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif" width="80" alt="Leadership gif">
 
-          <h4>🚀 <strong>Technical Leadership</strong></h4>
+        <h4>🚀 <strong>Technical Leadership</strong></h4>
 
-          <p>
-            <img src="https://img.shields.io/badge/Team%20Lead-Cross--functional-FFD700?style=flat-square" height="18" alt="Team Lead">
-            <img src="https://img.shields.io/badge/Awards-4%2B%20National-FF6B6B?style=flat-square" height="18" alt="Awards">
-          </p>
+        <p>
+          <img src="https://img.shields.io/badge/Team%20Lead-Cross--functional-FFD700?style=flat-square" height="18" alt="Team Lead">
+          <img src="https://img.shields.io/badge/Awards-4%2B%20National-FF6B6B?style=flat-square" height="18" alt="Awards">
+        </p>
 
-          <p>Leading engineering teams to architect and deploy award-winning platforms, driving technical innovation and system design excellence</p>
-        </div>
-      </td>
-    </tr>
-  </table>
-
-</section>
+        <p>Leading engineering teams to architect and deploy award-winning platforms, driving technical innovation and system design excellence</p>
+      </div>
+    </td>
+  </tr>
+</table>
 
 <p align="center">
   <img src="https://img.shields.io/badge/🎯%20Featured%20Project-K12EDU%20Platform-4FC08D?style=for-the-badge" height="32">
