@@ -1,0 +1,9 @@
+h2.center, h3.center, h4.center {
+  text-align: center;
+}
+
+/* Stronger selectors for Material theme */
+.md-typeset h2.center, .md-typeset h3.center, .md-typeset h4.center,
+.md-content h2.center, .md-content h3.center, .md-content h4.center {
+  text-align: center !important;
+}
