@@ -1,9 +1,5 @@
 # 網頁應用 - MaxKB
 
-建立時間: 2026年2月3日 下午7:51
-類別: AI, Web APP
-最後更新時間: 2026年2月3日 下午7:51
-
 # [MaxKB](https://github.com/1Panel-dev/MaxKB) — 開源企業級智慧代理平台
 
 **MaxKB**（Max Knowledge Brain）是一款開源的企業級智能體（Agent）平台，整合了 **檢索增強生成（Retrieval-Augmented Generation, RAG）** 流程、強大的工作流引擎，以及 **MCP 工具調用** 能力，適用於智慧客服、企業內部知識庫、學術研究與教育等多種場景。

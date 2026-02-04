@@ -1,9 +1,5 @@
 # 模型運行框架 - Ollama
 
-建立時間: 2026年2月3日 下午7:51
-類別: AI
-最後更新時間: 2026年2月3日 下午7:51
-
 # [Ollama](https://github.com/ollama/ollama)
 
 Ollama 是一個可以在本地端運行與管理大型語言模型（LLM）的開源工具，支援 macOS、Windows、Linux 以及 Docker 環境。它的特點是輕量化安裝、方便下載與切換模型，並且提供 REST API 與 CLI（命令列介面）來與模型互動。透過 Ollama，你可以快速在本地執行如 LLaMA、Gemma、GPT-OSS 等知名模型，離線運行以保護資料隱私，同時支援多種硬體加速（如 GPU）。

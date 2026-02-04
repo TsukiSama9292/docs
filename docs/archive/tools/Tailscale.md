@@ -1,9 +1,5 @@
 # Tailscale
 
-建立時間: 2026年2月3日 下午7:51
-類別: 工具使用
-最後更新時間: 2026年2月3日 下午7:51
-
 # Tailscale 運行在 Docker Container (僅在有特權環境)
 
 ## docker-compose.yml

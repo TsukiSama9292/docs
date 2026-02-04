@@ -1,9 +1,5 @@
 # AI 提示詞範本
 
-建立時間: 2026年2月3日 下午7:51
-類別: AI, LLM
-最後更新時間: 2026年2月3日 下午7:51
-
 ## 提示詞範本儲存庫
 
 - https://github.com/ai-boost/awesome-prompts

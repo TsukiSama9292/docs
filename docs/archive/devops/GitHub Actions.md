@@ -1,9 +1,5 @@
 # GitHub Actions
 
-建立時間: 2026年2月3日 下午7:51
-類別: DevOps
-最後更新時間: 2026年2月3日 下午7:51
-
 # 安裝 Github Actions ( 務必直接操作 Github 網頁獲取最新版本和單次 token )
 
 ## 建立一個資料夾
