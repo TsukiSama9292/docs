@@ -35,6 +35,7 @@ plugins:
           link: /
         - locale: zh-TW
           name: 繁體中文
+          site_name: 林宣佑
           default: false
           build: true
           link: /zh-TW/
