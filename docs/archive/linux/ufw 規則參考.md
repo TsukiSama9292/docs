@@ -1,6 +1,6 @@
 # ufw 規則參考
 
-```
+```bash
 # 停用防火牆（非強制，但較安全）
 sudo ufw disable
 
@@ -34,5 +34,4 @@ sudo ufw allow from 120.101.32.0/20
 
 # 啟用防火牆
 sudo ufw enable
-
 ```

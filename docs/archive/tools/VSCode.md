@@ -10,5 +10,3 @@ echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/packa
 sudo apt update
 sudo apt install code -y
 ```
-
-## 2. 安裝實用插件

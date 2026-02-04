@@ -7,7 +7,6 @@
 - [Proxmox VE](Proxmox VE.md)
 - [Ubuntu 常用軟體](Ubuntu 常用軟體.md)
 - [Ubuntu 桌面 - 推薦軟體](Ubuntu 桌面 - 推薦軟體.md)
-- [opencode](opencode.md)
 - [ufw 規則參考](ufw 規則參考.md)
 - [主機名稱設定](主機名稱設定.md)
 - [硬碟拓展](硬碟拓展.md)
