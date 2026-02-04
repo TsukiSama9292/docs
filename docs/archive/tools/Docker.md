@@ -27,9 +27,6 @@ sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plug
 
 # 將目前使用者加入 docker 群組（重啟後生效）
 sudo usermod -aG docker $USER
-
-# 重新啟動系統
-sudo reboot
 ```
 
 ## Debian
@@ -53,7 +50,6 @@ EOF
 sudo apt update
 sudo apt install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 sudo usermod -aG docker $USER
-sudo reboot
 ```
 
 ## Alpine
@@ -147,9 +143,20 @@ sudo ubuntu-drivers install
     ```bash
     wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/cuda-keyring_1.1-1_all.deb
     sudo dpkg -i cuda-keyring_1.1-1_all.deb
+    curl -fsSL https://nvidia.github.io/libnvidia-container/gpgkey | sudo gpg --dearmor -o /usr/share/keyrings/nvidia-container-toolkit-keyring.gpg \
+    && curl -s -L https://nvidia.github.io/libnvidia-container/stable/deb/nvidia-container-toolkit.list | \
+        sed 's#deb https://#deb [signed-by=/usr/share/keyrings/nvidia-container-toolkit-keyring.gpg] https://#g' | \
+        sudo tee /etc/apt/sources.list.d/nvidia-container-toolkit.list
     sudo apt-get update
     sudo apt-get -y install cuda-toolkit-13-1
-    sudo reboot
+    export NVIDIA_CONTAINER_TOOLKIT_VERSION=1.18.2-1
+    sudo apt-get install -y \
+        nvidia-container-toolkit=${NVIDIA_CONTAINER_TOOLKIT_VERSION} \
+        nvidia-container-toolkit-base=${NVIDIA_CONTAINER_TOOLKIT_VERSION} \
+        libnvidia-container-tools=${NVIDIA_CONTAINER_TOOLKIT_VERSION} \
+        libnvidia-container1=${NVIDIA_CONTAINER_TOOLKIT_VERSION}
+    sudo nvidia-ctk runtime configure --runtime=docker
+    sudo systemctl restart docker
     ```
     
 2. [DEBUG] 當遇到 CUDA-toolkit 指令失效，設定執行路徑 (13.1 為例)
@@ -168,9 +175,20 @@ sudo ubuntu-drivers install
     ```bash
     wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2404/x86_64/cuda-keyring_1.1-1_all.deb
     sudo dpkg -i cuda-keyring_1.1-1_all.deb
+    curl -fsSL https://nvidia.github.io/libnvidia-container/gpgkey | sudo gpg --dearmor -o /usr/share/keyrings/nvidia-container-toolkit-keyring.gpg \
+    && curl -s -L https://nvidia.github.io/libnvidia-container/stable/deb/nvidia-container-toolkit.list | \
+        sed 's#deb https://#deb [signed-by=/usr/share/keyrings/nvidia-container-toolkit-keyring.gpg] https://#g' | \
+        sudo tee /etc/apt/sources.list.d/nvidia-container-toolkit.list
     sudo apt-get update
-    sudo apt-get -y install cuda-toolkit-13-1 nvidia-docker2
-    sudo reboot
+    sudo apt-get -y install cuda-toolkit-13-1
+    export NVIDIA_CONTAINER_TOOLKIT_VERSION=1.18.2-1
+    sudo apt-get install -y \
+        nvidia-container-toolkit=${NVIDIA_CONTAINER_TOOLKIT_VERSION} \
+        nvidia-container-toolkit-base=${NVIDIA_CONTAINER_TOOLKIT_VERSION} \
+        libnvidia-container-tools=${NVIDIA_CONTAINER_TOOLKIT_VERSION} \
+        libnvidia-container1=${NVIDIA_CONTAINER_TOOLKIT_VERSION}
+    sudo nvidia-ctk runtime configure --runtime=docker
+    sudo systemctl restart docker
     ```
     
 2. [DEBUG] 當遇到 CUDA-toolkit 指令失效，設定執行路徑 (13.1 為例)
@@ -200,8 +218,6 @@ curl -s -L https://nvidia.github.io/libnvidia-container/stable/deb/nvidia-contai
 
 sudo apt update
 sudo apt install -y nvidia-container-toolkit
-
-sudo reboot
 ```
 
 ### 測試
@@ -218,6 +234,7 @@ Build cuda_13.1.r13.1/compiler.37061995_0
 
 # 驗證容器 cuda-toolkit
 $ sudo docker run --rm --gpus all nvidia/cuda:13.0.1-base-ubuntu22.04 nvidia-smi
+
 Mon Feb  2 15:04:43 2026
 +-----------------------------------------------------------------------------------------+
 | NVIDIA-SMI 550.163.01             Driver Version: 550.163.01     CUDA Version: 13.0     |
