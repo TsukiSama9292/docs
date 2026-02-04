@@ -33,16 +33,94 @@ plugins:
           default: true
           build: true
           link: /
-        - locale: zh
+        - locale: zh-TW
           name: 繁體中文
           default: false
           build: true
-          link: /zh/
+          link: /zh-TW/
           nav_translations:
             Home: 首頁
+            Archive: 檔案櫃
+            Tools: 工具
+            Documents: 文件
+            NIU: 國立宜蘭大學
+            Overview: 概覽
+            Alpine OS Install: Alpine 系統安裝
+            Debian CPU Microcode Issue: Debian CPU 微碼問題
+            Proxmox VE: Proxmox VE
+            Ubuntu Common Software: Ubuntu 常用軟體
+            Ubuntu Desktop - Recommended: Ubuntu 桌面 - 推薦軟體
+            UFW Rules Reference: UFW 規則參考
+            Hostname Settings: 主機名稱設定
+            Disk Expansion: 硬碟拓展
+            Network Settings: 網路設定
+            Screen Off: 螢幕關閉
+            Device Deployment Recommendations: 設備部屬建議
+            AI Prompt Templates: AI 提示詞範本
+            Model Training: 模型訓練
+            Model Running Framework - llama.cpp: 模型運行框架 - llama.cpp
+            Model Running Framework - Ollama: 模型運行框架 - Ollama
+            Knowledge Base: 知識庫
+            Web Application - MaxKB: 網頁應用 - MaxKB
+            Web Application - n8n: 網頁應用 - n8n
+            Corpus Dataset: 語料資料集
+            Reference Materials: 參考資料
+            Project Proposals: 計畫書
+            Steganography: 隱寫術
+            GitHub Actions: GitHub Actions
+            lab - OS & Software: lab - 系統與軟體
+            Database: 資料庫
+            NSTC Undergraduate Research Project: 大專生國科會計畫
 
 nav:
-  - Home: index.md
+  - "Home": index.md
+  - "Archive":
+    - Overview: archive/index.md
+    - Linux:
+      - Overview: archive/linux/index.md
+      - Alpine OS Install: archive/linux/Alpine 系統安裝.md
+      - Debian CPU Microcode Issue: archive/linux/Debian CPU 微碼問題.md
+      - Proxmox VE: archive/linux/Proxmox VE.md
+      - Ubuntu Common Software: archive/linux/Ubuntu 常用軟體.md
+      - Ubuntu Desktop - Recommended: archive/linux/Ubuntu 桌面 - 推薦軟體.md
+      - opencode: archive/linux/opencode.md
+      - UFW Rules Reference: archive/linux/ufw 規則參考.md
+      - Hostname Settings: archive/linux/主機名稱設定.md
+      - Disk Expansion: archive/linux/硬碟拓展.md
+      - Network Settings: archive/linux/網路設定.md
+      - Screen Off: archive/linux/螢幕關閉.md
+      - Device Deployment Recommendations: archive/linux/設備部屬建議.md
+    - AI:
+      - Overview: archive/ai/index.md
+      - AI Prompt Templates: archive/ai/AI 提示詞範本.md
+      - Model Training: archive/ai/模型訓練.md
+      - Model Running Framework - llama.cpp: archive/ai/模型運行框架 - llama.cpp.md
+      - Model Running Framework - Ollama: archive/ai/模型運行框架 - Ollama.md
+      - Knowledge Base: archive/ai/知識庫.md
+      - Web Application - MaxKB: archive/ai/網頁應用 - MaxKB.md
+      - Web Application - n8n: archive/ai/網頁應用 - n8n.md
+      - Corpus Dataset: archive/ai/語料資料集.md
+    - Tools:
+      - Overview: archive/tools/index.md
+      - Docker: archive/tools/Docker.md
+      - Python: archive/tools/Python.md
+      - SSH: archive/tools/SSH.md
+      - Tailscale: archive/tools/Tailscale.md
+      - VSCode: archive/tools/VSCode.md
+      - nvm & npm: archive/tools/nvm & npm.md
+    - Documents:
+      - Overview: archive/documents/index.md
+      - Reference Materials: archive/documents/參考資料.md
+      - Project Proposals: archive/documents/計畫書.md
+      - Steganography: archive/documents/隱寫術.md
+    - DevOps:
+      - Overview: archive/devops/index.md
+      - GitHub Actions: archive/devops/GitHub Actions.md
+      - lab - OS & Software: archive/devops/lab - 系統與軟體.md
+      - Database: archive/devops/資料庫.md
+    - NIU:
+      - Overview: archive/niu/index.md
+      - NSTC Undergraduate Research Project: archive/niu/大專生國科會計畫.md
 
 markdown_extensions:
   - pymdownx.highlight:
